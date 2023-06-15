@@ -18,7 +18,7 @@
 /*Neutral*/
 
 --White: hsl(0, 0%, 100%)
---Pale blue: hsl(221, 100%, 96%);
+--blue: hsl(221, 100%, 96%);
 --Light-lavender: hsl(241, 100%, 89%);
 --Dark-grayblue: hsl(224, 30%, 27%);
 }
@@ -43,14 +43,15 @@ body {
 }
 
 .content-1 {
-  background-color: hsl(244, 81%, 51%);
-  color: white;
-  border-radius: 25px;
+  background-color: hsl(249, 95%, 61%);
+  color: hsl(120, 100%, 100%);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   text-align: center;
   width: 17em;
 }
 .content-1 .circle .font {
-  background-color: rgba(68, 8, 232, 0.895);
+  background-color: hsl(249, 74%, 52%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,10 +83,13 @@ body {
     width: 17em;
     text-align: center;
   }
+  .content-2 h1{
+    color: hsl(237, 16%, 28%);
+  }
   .container-1 {
     margin-left: 28px;
-    background-color: var(--Light-red);
-    color: hsl(0, 62%, 52%);
+    background-color: hsl(6, 100%, 98%);
+    color: hsl(359, 72%, 74%);
     padding-left: 10px;
     display: flex;
     align-items: center;
@@ -94,7 +98,7 @@ body {
   }
   .container-2 {
     margin-left: 28px;
-    background-color: var(--Orangey-yellow);
+    background-color: hsl(42, 100%, 97%);
     color: #EBE80D;
     padding-left: 10px;
     display: flex;
@@ -109,8 +113,8 @@ body {
   }
   .container-3 {
     margin-left: 28px;
-    background-color: var(--Green-teal);
-    color: hsla(139, 52%, 37%, 0.922);
+    background-color: hsl(173, 53%, 97%);
+    color: hsl(165, 58%, 44%);
     padding-left: 10px;
     display: flex;
     align-items: center;
@@ -119,8 +123,8 @@ body {
   }
   .container-4 {
     margin-left: 28px;
-    background-color: var(--Cobalt-blue);
-    color:  hsl(226, 83%, 45%);
+    background-color: hsl(240, 71%, 97%);
+    color:  hsl(234, 39, 44);
     border-radius: 4px;
     padding-left: 10px;
     display: flex;
@@ -143,7 +147,7 @@ body {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--Dark-grayblue);
+  background-color: hsl(224, 30%, 27%);
   color: white;
   margin-top: 9px;
   cursor: pointer;
