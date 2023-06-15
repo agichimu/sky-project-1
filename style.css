@@ -143,7 +143,7 @@ body {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--Light-royalblue);
+  background-color: var(--Dark-grayblue);
   color: white;
   margin-top: 9px;
   cursor: pointer;
@@ -151,7 +151,7 @@ body {
 }
 button:hover {
   border-color:  var(--Light-royalblue);
-  background-color: var(--Dark-grayblue);
+  background-color: var(--Light-royalblue);
   color: white;
 }
 button:focus,
