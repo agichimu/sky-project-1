@@ -59,22 +59,23 @@ body {
     border-radius: 50%;
     margin: 0 auto;
   }
-@media screen and (max-width: 600px) {
-  .containers {
-    background-color: white;
-    display: grid;
-    margin: auto;
-  }
-  .content-1 {
-    background-color: rgb(72, 12, 235);
-    color: white;
-    border-radius: 25px;
-    text-align: center;
-    margin-left: 30px;
-    width: 240px;
+  @media only screen and (max-width: 768px) {
+    .containers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .content-1 {
+      width: 100%;
+    }
+  
+    .content-1 .circle .font {
+      width: 80px;
+      height: 80px;
+    }
   }
   
-}  
   .content-2 {
     background-color: white;
     border-radius: 5px;
