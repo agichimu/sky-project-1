@@ -46,7 +46,7 @@ body {
   .containers {
     box-sizing: border-box;
     border: 2px solid blue;
-    width: 88%;
+    width: 96%;
     height: 100%;
     display: grid;
     flex-wrap: wrap;
