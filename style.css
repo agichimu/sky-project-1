@@ -35,7 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-@media (max-width: 530px) {
+@media (max-width: 538px) {
   body {
     background-color: antiquewhite;
     margin: 0;
@@ -46,7 +46,7 @@ body {
   .containers {
     box-sizing: border-box;
     border: 2px solid blue;
-    width: 88%;
+    width: 90%;
     height: 100%;
     display: grid;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ body {
     border-radius: 50%;
     margin: 0 auto;
   }
-  @media (max-width: 510px) {
+  @media (max-width: 538px) {
        
     .content-1 {
       width: 100%;
@@ -91,8 +91,7 @@ body {
     .content-2 {
       margin: auto;
     }
-    
-    .image{
+     .image{
       margin-right: 0;
     } 
   }
