@@ -60,7 +60,7 @@ body {
     border-radius: 50%;
     margin: 0 auto;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 280px) {
 
     body {
       background-color: aqua;
