@@ -65,7 +65,7 @@ body {
     border: 2px solid blue;
     width: 88%;
     height: 100%;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
   }
 }
