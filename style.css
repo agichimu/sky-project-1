@@ -140,7 +140,27 @@
       text-align: center;
       line-height: normal;
     }
-    @media (max-width: 450px){
+    @media (min-width: 320px){
+      .container-1{
+        width: 110%;
+      }
+      .container-2{
+        width: 110%;
+      }
+      .container-3{
+        width: 110%;
+      }
+      .container-4{
+        width: 110%;
+      }
+      .container-5{
+        width: 110%;
+      }
+      button {
+        width: 100%;
+      }
+    }
+    @media (min-width: 480px){
       .container-1{
         width: 110%;
       }
