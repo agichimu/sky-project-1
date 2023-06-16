@@ -47,7 +47,7 @@
       box-sizing: border-box;
       border: 2px solid blue;
       width: 99%;
-      height: 102%;
+      height: 98%;
       display: grid;
       flex-wrap: wrap;
     }
