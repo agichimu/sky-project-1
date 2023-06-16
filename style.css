@@ -35,6 +35,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+@media (max-width: 530px) {
+  body {
+    background-color: antiquewhite;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .containers {
+    box-sizing: border-box;
+    border: 2px solid blue;
+    width: 88%;
+    height: 100%;
+    display: grid;
+    flex-wrap: wrap;
+  }
+}
 
 .containers {
   background-color: white;
@@ -60,23 +77,8 @@ body {
     border-radius: 50%;
     margin: 0 auto;
   }
-  @media (max-width: 280px) {
-
-    body {
-      background-color: aqua;
-      margin: 0;
-      display: grid;
-      place-items: center;
-      
-    }
-    .containers {
-      width: 280px;
-      height: 514px;
-      display: flex;
-      flex-wrap: wrap;
-      
-    }
-  
+  @media (max-width: 510px) {
+       
     .content-1 {
       width: 100%;
     }
@@ -89,9 +91,10 @@ body {
     .content-2 {
       margin: auto;
     }
+    
     .image{
       margin-right: 0;
-    }
+    } 
   }
   
   .content-2 {
