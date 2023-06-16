@@ -60,11 +60,19 @@ body {
     border-radius: 50%;
     margin: 0 auto;
   }
-  @media only screen and (max-width: 768px) {
+  @media (max-width: 375px) {
+
+    body {
+      background-color: aqua;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      
+    }
     .containers {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      
     }
   
     .content-1 {
@@ -72,8 +80,15 @@ body {
     }
   
     .content-1 .circle .font {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
+    }
+      /*part 2 of containers*/
+    .content-2 {
+      margin: auto;
+    }
+    .image{
+      margin-right: 0;
     }
   }
   
@@ -85,8 +100,14 @@ body {
   }
   .content-2 h1{
     color: hsl(237, 16%, 28%);
+    text-align: left;
+    margin-left: 28px;
+    font-size: 18px;
+    font-family: Hanken Grotesk;
+    font-weight: 500, 700, 800;
   }
   .container-1 {
+    border-radius: 9px;
     margin-left: 28px;
     background-color: hsl(6, 100%, 98%);
     color: hsl(359, 72%, 74%);
@@ -112,6 +133,7 @@ body {
     margin-left: 35px;
   }
   .container-3 {
+    border-radius: 9px;
     margin-left: 28px;
     background-color: hsl(173, 53%, 97%);
     color: hsl(165, 58%, 44%);
@@ -122,6 +144,7 @@ body {
     margin-top: 5px;
   }
   .container-4 {
+    border-radius: 9px;
     margin-left: 28px;
     background-color: hsl(240, 71%, 97%);
     color:  hsl(234, 39, 44);
